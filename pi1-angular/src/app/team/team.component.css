@@ -1,0 +1,51 @@
+.container {
+    max-width: 1200px;
+    margin: auto;;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 15px;
+}
+
+.member {
+    width: 35%;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-size: medium;
+    gap: 10px;
+    padding: 10px;
+}
+
+.photo {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photoimg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.name {
+    font-weight: bolder;
+}
+
+.function {
+    font-weight: bold;
+}
+
+.lattes {
+    width: 100%;
+}
+
+.lattes span {
+    width: 100%;
+    word-wrap: break-word;
+}
